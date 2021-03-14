@@ -31,6 +31,7 @@
 
     <!-- custom style -->
     <link href="{{ asset('frontend/css/ui.css?v=1.0') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('frontend/css/responsive.css') }}" rel="stylesheet" media="only screen and (max-width: 1200px)" />
 
     <!-- custom javascript -->
@@ -54,7 +55,6 @@
     <x-frontend.header/>
     <!-- section-header.// -->
     @yield('content')
-
     <!-- ========================= Subscribe ========================= -->
     <section class="section-subscribe bg-primary padding-y-lg">
         <div class="container">

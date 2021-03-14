@@ -22,9 +22,9 @@
     <div id="app">
         <x-backend.sidebar/>
         <div id="main">
-            <x-backend-header/>
+            <x-backend.header/>
             @yield('content')
-            <x-backend-footer/>
+            <x-backend.footer/>
         </div>
     </div>
     <script src="{{ asset('backend/assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
